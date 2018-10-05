@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag.TournamentsFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/tournaments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Filter"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/asd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/roboto"
+            android:text="Tournments"
+            android:textColor="@android:color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/as"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/asd"
+            android:layout_marginTop="5dp"
+            android:text="Take Part In excitig tournaments near you or follow their Live feeds"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvTournament"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/as"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+</FrameLayout>
