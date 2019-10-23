@@ -65,7 +65,19 @@ public class MainActivity extends AppCompatActivity {
     List<Grounds> groundslist=new ArrayList();
 
     FragmentInterface fragmentInterface;
+/*adf ads
+// a d
+     ad
+     as
+         a as
 
+                 afa
+
+    a s
+            f a
+                     f sa
+                             s f
+                                     as a/*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
